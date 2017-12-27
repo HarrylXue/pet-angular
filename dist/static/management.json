@@ -1,0 +1,25 @@
+{
+	"managementList":[
+		{
+			"category":"衣食",
+			"row1":"寻找附近的宠物店,美容院",
+			"row2":"就近为萌主们提供方便",
+			"bg":"../../assets/yishi.png",
+			"link":"localshop"
+		},
+		{
+			"category":"医护",
+			"row1":"搜索附近的医院,及时给",
+			"row2":"萌主们救护医治",
+			"bg":"../../assets/yihu.png",
+			"link":"localhospital"
+		},
+		{
+			"category":"我的",
+			"row1":"方便查询萌主的信息,购物券",
+			"row2":"个性签名,订单收藏等。",
+			"bg":"../../assets/wode.png",
+			"link":"mypet"
+		}
+	]
+}

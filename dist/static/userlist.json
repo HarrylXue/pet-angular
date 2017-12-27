@@ -1,0 +1,19 @@
+{
+	"usersList":[
+		{
+			"nickname":"可乐妈妈",
+			"name":"经验达人",
+			"pic":"../assets/dr.png"
+		},
+		{
+			"nickname":"雪碧妈妈",
+			"name":"活跃达人",
+			"pic":"../assets/user_second.png"
+		},
+		{
+			"nickname":" 玖玖妈妈",
+			"name":"社交达人",
+			"pic":"../assets/user_third.png"
+		}	
+	]
+}

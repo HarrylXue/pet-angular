@@ -1,0 +1,34 @@
+{
+	"cartList":[
+		{
+			"shopsname":"味它宠物食品专营店",
+			"logo":"../../assets/bg_zhuazi@2x.png",
+			"goodsList":[
+				{
+					"tips":"美国进口天然猫粮 健康鸡肉三文鱼全猫粮主粮150g 6个月以上",
+					"price":"398",
+					"count":"2",
+					"bg":"../../assets/cart-1.png"
+				},
+				{
+					"tips":"鳕鱼挑嘴配方猫粮食品 成猫 10kg 多省包邮",
+					"price":"147",
+					"count":"2",
+					"bg":"../../assets/cart-1.png"	
+				}	
+			]	
+		},
+		{
+			"shopsname":"宅猫酱宠物玩具专营店",
+			"logo":"../../assets/bg_zhuazi@2x.png",
+			"goodsList":[
+				{
+					"tips":"宅猫酱 日本多格漫 逗猫玩具 小老鼠 猫咪互动玩具套装 4只",
+					"price":"16.8",
+					"count":"1",
+					"bg":"../../assets/cart-2.png"	
+				}	
+			]
+		}
+	]
+}

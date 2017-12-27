@@ -1,0 +1,16 @@
+{
+	"categoryList":[
+		{
+			"kindname":"喵萌主",
+			"bg":"../../assets/cat.png"
+		},
+		{
+			"kindname":"汪萌主",
+			"bg":"../../assets/dog.png"
+		},
+		{
+			"kindname":"其他萌主",
+			"bg":"../../assets/bilibili.gif"
+		}	
+	]
+}

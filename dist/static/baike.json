@@ -1,0 +1,24 @@
+{
+	"questionList":[
+		{
+			"question":"口气清新 我们更亲进",
+			"bg":"../../assets/baike-first.png"
+		},
+		{
+			"question":"毛打理不好 怎么办",
+			"bg":"../../assets/baike-second.png"
+		},
+		{
+			"question":"剃胎毛 有必要吗",
+			"bg":"../../assets/baike-third.png"
+		},
+		{
+			"question":"皮肤病 你知道吗",
+			"bg":"../../assets/baike-forth.png"
+		},
+		{
+			"question":"保护萌爪 从足部做起",
+			"bg":"../../assets/baike-fifth.png"
+		}
+	]
+}
