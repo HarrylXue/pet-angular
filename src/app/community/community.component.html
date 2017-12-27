@@ -1,0 +1,175 @@
+<div class="page-group">
+
+	<header class="bar bar-nav">
+		<nav class="bar bar-tab">
+			<a class="title tab-item external active">
+				最新资讯
+			</a>
+			<a class="title tab-item external" routerLink="/follow">
+				关注
+			</a>
+			<a class="title tab-item external" routerLink="/baike">
+				萌主问答
+			</a>
+		</nav>
+		
+	</header>
+
+	<!-- 底部导航 -->
+	<nav class="bar bar-tab">
+		<a class="tab-item external" routerLink="/homepage">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">首页</span>
+		</a>
+		<a class="tab-item external active" href="javascript:void(0);">
+			<span class="icon icon-me"></span>
+			<span class="tab-label">社区</span>
+
+		</a>
+		<a class="tab-item external open-popup open-about">
+			<div class="icon icon-star"></div>
+		</a>
+		<a class="tab-item external" routerLink="/match">
+			<span class="icon icon-cart"></span>
+			<span class="tab-label">配对</span>
+		</a>
+		<a class="tab-item external" routerLink="/mypet">
+			<span class="icon icon-settings"></span>
+			<span class="tab-label">我的</span>
+		</a>
+	</nav>
+
+	<div class="content">
+		<div class="content-block">
+			
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" routerLink="/shop">
+						<img src="../../assets/slider.png" alt="">
+					</div>
+					<div class="swiper-slide" routerLink="/shop">
+						<img src="../../assets/slider2.png" alt="">
+					</div>
+					<div class="swiper-slide" routerLink="/shop">
+						<img src="../../assets/other.png" alt="">
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>	
+
+			<div class="card">
+				<div class="card-content">
+					<div class="card-content-inner">
+						<div class="content-padded">
+							<div class="row">
+								<div class="col-25" *ngFor="let item of functionList">
+									<img src="{{item.bg}}" alt="" routerLink="{{item.link}}">
+									<p>{{item.funname}}</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">
+					<img class="footlogo" src="../../assets/footlogo.png">
+					<span class="logo_title">萌主达人</span>
+					<!-- 点击向右扩展 -->
+					<img class="sorrow" src="../../assets/right_sorrow.png" (click)="jump()">
+				</div>
+				<div class="card-content">
+					<div class="card-content-inner">
+						<div style="overflow-y:hidden">
+							<div class="fl menu_box">
+								<ul class="clearfix segment" [ngStyle]="{'width':7.6*usersList.length+'rem'}">
+									<li class="fl segment_item" *ngFor="let item of usersList">
+										<div class="users">
+											<div class="content-padded">
+												<div class="row">
+													<div class="col-30">
+														<img src="{{item.pic}}" alt="">
+													</div>
+													<div class="col-70">
+														<div class="row">
+															<span>{{item.nickname}}</span>
+														</div>
+														<div class="row">
+															<p>{{item.name}}</p>	
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- 动态卡片 -->
+			<div class="card facebook-card" *ngFor="let ele of hotList">
+				<div class="card-title">
+					<img class="footlogo" src="../../assets/footlogo.png">
+					<span class="logo_title">{{ele.title}}</span>
+				</div>
+				<div class="card-header no-border">
+
+					<div class="facebook-avatar"><img src="{{ele.bg}}" width="70"></div>
+					<div class="info">
+						<div class="facebook-name"><b>{{ele.nickname}}</b>&nbsp;{{ele.name}}</div>
+						<div class="facebook-date">{{ele.lasttime}}</div>
+					</div>	
+					<div class="addfri fr" (click)="add()"><img src="../../assets/add_friends.png" alt=""></div>
+				</div>
+				<div class="txt">{{ele.status}}</div>
+				<div class="card-content" >
+					<div class="row">
+
+						<div class="col-33" *ngFor="let bg of ele.imageList"><img src="{{bg}}" width="100%"></div>
+						
+					</div>
+					
+				</div>
+				<div class="card-footer no-border">
+					<a href="javascript:void(0);" class="thumb" (click)="thumb()"><span class="tab-label">赞</span><span class="badge">{{counts}}</span></a>
+					<a href="javascript:void(0);" >评论</a>
+					<a href="javascript:void(0);" >分享</a>
+				</div>
+			</div>
+
+		</div>
+	</div>	
+
+	<!-- About Popup -->
+  <div class="popup popup-about">
+    <div class="content-block">
+      <div class="share-btn row">
+        <div class="col-33 close-popup" routerLink="/article">
+          <img src="../../assets/btn_tuwen@2x.png" alt="">
+          <p>图文</p>
+        </div>
+        <div class="col-33 close-popup live">
+          <a target="_blank" href="/camera"><img src="../../assets/btn_zhibo@2x.png" alt=""></a>
+          
+          <p>直播</p>
+        </div>
+        <div class="col-33 close-popup" routerLink="/baike">
+          <img  src="../../assets/btn_tiwen@2x.png" alt="">
+          <p>提问</p>
+        </div>
+      </div>
+      <div class="cancle close-popup">
+        <img class="close-popup" src="../../assets/btn_quxiao@2x.png" alt>
+      </div>
+    </div>
+  </div>
+
+</div>
+

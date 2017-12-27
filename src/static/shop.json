@@ -1,0 +1,28 @@
+{
+	"shopList":[
+		{
+			"id":"001",
+			"bg":"../../assets/shop001.png"
+		},
+		{
+			"id":"002",
+			"bg":"../../assets/shop002.png"
+		},	
+		{
+			"id":"003",
+			"bg":"../../assets/shop003.png"
+		},	
+		{
+			"id":"004",
+			"bg":"../../assets/shop004.png"
+		},
+		{
+			"id":"002",
+			"bg":"../../assets/shop002.png"
+		},
+		{
+			"id":"001",
+			"bg":"../../assets/shop001.png"
+		}	
+	]
+}

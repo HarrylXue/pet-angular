@@ -1,0 +1,23 @@
+{
+	"picturesList":[
+		{
+			"id":"0001",
+			"pic":"../../assets/pet-info.png"
+		},
+		{
+			"id":"0002",
+			"pic":"../../assets/pet-info.png"
+		},
+		{
+			"id":"0003",
+			"pic":"../../assets/pet-info.png"
+		},{
+			"id":"0004",
+			"pic":"../../assets/pet-info.png"
+		},
+		{
+			"id":"0005",
+			"pic":"../../assets/pet-info.png"
+		}
+	]
+}

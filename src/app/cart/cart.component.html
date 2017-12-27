@@ -1,0 +1,101 @@
+<div class="page-group">
+
+	<!-- 顶部导航 -->
+	<header class="bar bar-nav">
+		<a class="icon icon-left pull-left" onclick="javascript:history.back(-1);"></a>
+		<h1 class="title">购物车（3）</h1>
+	</header>
+
+	<!-- 底部导航栏 -->
+	<nav class="bar bar-tab">
+		<a class="tab-item external" routerLink="/homepage">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">首页</span>
+		</a>
+		<a class="tab-item external" routerLink="/community">
+			<span class="icon icon-me"></span>
+			<span class="tab-label">社区</span>
+
+		</a>
+		<a class="tab-item external open-popup open-about">
+			<div class="icon icon-star"></div>
+		</a>
+		<a class="tab-item external" routerLink="/match">
+			<span class="icon icon-cart"></span>
+			<span class="tab-label">配对</span>
+		</a>
+		<a class="tab-item external" routerLink="/mypet">
+			<span class="icon icon-settings"></span>
+			<span class="tab-label">我的</span>
+		</a>
+	</nav>
+	
+	<div class="content">
+		
+
+		<div class="shopping">
+
+			<div class="shop-group-item">
+				<div class="shop-name">
+					<input type="checkbox" class="check goods-check shopCheck">
+					<h4><a class="shopid">味它宠物食品专营店</a></h4>
+					<div class="coupons"><span>领券</span><em>|</em><span>编辑</span></div>
+				</div>
+				<ul>
+					<li>
+						<div class="shop-info">
+							<input type="checkbox" class="check goods-check goodsCheck">
+							<div class="shop-info-img"><img src="../../assets/cart-1.png" /></div>
+							<div class="shop-info-text">
+								<h4>美国进口天然猫粮 健康 鸡肉三文鱼全猫粮150g 6个月以上</h4>
+								<div class="shop-brief"><span>重量:3.3kg</span><span>套餐:标配版</span><span>口味:海鲜味</span></div>
+								<div class="shop-price">
+									<div class="shop-pices">￥<b class="price">398.00</b></div>
+									<div class="shop-arithmetic">
+										<a href="javascript:;" class="minus">-</a>
+										<span class="num" >1</span>
+										<a href="javascript:;" class="plus">+</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="shopPrice">本店总计：￥<span class="shop-total-amount ShopTotal">0.00</span></div>
+			</div>
+		</div>
+		<div class="payment-bar">
+			<div class="all-checkbox"><input type="checkbox" class="check goods-check" id="AllCheck">全选</div>
+			<div class="shop-total">
+				<strong>合计：￥<i class="total" id="AllTotal">0.00</i></strong>
+				<span>减免：￥20.00</span>
+			</div>
+			<a class="settlement" routerLink="/orders">下单</a>
+		</div>
+	</div>
+	
+	<!-- About Popup -->
+  <div class="popup popup-about">
+    <div class="content-block">
+      <div class="share-btn row">
+        <div class="col-33 close-popup" routerLink="/article">
+          <img src="../../assets/btn_tuwen@2x.png" alt="">
+          <p>图文</p>
+        </div>
+        <div class="col-33 close-popup live">
+          <a target="_blank" href="/camera"><img src="../../assets/btn_zhibo@2x.png" alt=""></a>
+          
+          <p>直播</p>
+        </div>
+        <div class="col-33 close-popup" routerLink="/baike">
+          <img  src="../../assets/btn_tiwen@2x.png" alt="">
+          <p>提问</p>
+        </div>
+      </div>
+      <div class="cancle close-popup">
+        <img class="close-popup" src="../../assets/btn_quxiao@2x.png" alt>
+      </div>
+    </div>
+  </div>
+
+</div>

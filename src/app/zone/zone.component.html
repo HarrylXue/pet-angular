@@ -1,0 +1,64 @@
+<div class="page-group">
+	
+	<header class="bar bar-nav">
+		<a class="icon icon-left pull-left" routerLink="/mypet"></a>
+		<h1 class="title">我的动态</h1>
+	</header>
+
+	<nav class="bar bar-tab">
+	<a class="tab-item external" routerLink="/homepage">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">首页</span>
+		</a>
+		<a class="tab-item external" routerLink="/community">
+			<span class="icon icon-me"></span>
+			<span class="tab-label">社区</span>
+
+		</a>
+		<a class="tab-item external" routerLink="/share">
+			<div class="icon icon-star"></div>
+		</a>
+		<a class="tab-item external" routerLink="/match">
+			<span class="icon icon-cart"></span>
+			<span class="tab-label">配对</span>
+		</a>
+		<a class="tab-item external active" href="javascript:void(0);">
+			<span class="icon icon-settings"></span>
+			<span class="tab-label">我的</span>
+		</a>
+	</nav>
+
+	<div class="content">
+		
+		<!-- 动态卡片 -->
+			<div class="card facebook-card" *ngFor="let ele of zoneList">
+				<div class="card-title">
+
+					<span class="logo_title">{{ele.title}}</span>
+				</div>
+				<div class="card-header no-border">
+
+					<div class="facebook-avatar"><img src="{{ele.bg}}" width="70"></div>
+					<div class="info">
+						<div class="facebook-name"><b>{{ele.nickname}}</b></div>
+						<div class="facebook-date">{{ele.lasttime}}</div>
+					</div>	
+				</div>
+				<div class="txt">{{ele.status}}</div>
+				<div class="card-content" >
+					<div class="row">
+
+						<div class="col-33" *ngFor="let bg of ele.imageList"><img src="{{bg}}" width="100%"></div>
+
+					</div>
+					
+				</div>
+				<div class="card-footer no-border">
+					<a href="javascript:void(0);" >转发({{ele.report}})</a>
+					<a href="javascript:void(0);" >评论({{ele.commit}})</a>
+					<a href="javascript:void(0);" id="thumbsup">赞({{ele.thumbsup}})</a>
+				</div>
+			</div>
+
+	</div>
+</div>

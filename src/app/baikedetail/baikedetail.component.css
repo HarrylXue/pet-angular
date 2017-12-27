@@ -1,0 +1,204 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header.bar{
+	background-color: rgb(239,121,111);
+}
+.bar-nav .title,.bar-nav a{
+	color: white;
+}
+.bar .searchbar{
+	padding: .4rem 1.4rem;
+}
+.search-input input{
+	border-radius: 15px;
+}
+
+
+/*底部导航栏*/
+.icon-home{
+	width: 1.4rem;
+	background-image: url("../../assets/homepage.png");
+	background-repeat: no-repeat;
+	background-position: cover;
+}
+.icon-me{
+	width: 1.4rem;
+	background-image: url("../../assets/community.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+.icon-star{
+	
+	background-image: url("../../assets/camera.png");
+	background-repeat:no-repeat;
+	/*background-position: cover;*/
+}
+.icon-cart{
+	width: 1.4rem;
+	background-image: url("../../assets/match.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+.icon-settings{
+	width: 1.4rem;
+	background-image: url("../../assets/myinfo.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+.bar-tab .tab-item span.icon{
+	top: 0;
+}
+.bar-tab .tab-item div.icon{
+	top: -0.5rem;
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+}
+.bar-tab .tab-item .icon~.tab-label{
+	top:0.03rem;
+}
+.icon-home:before,.icon-me:before,.icon-star:before,.icon-cart:before,.icon-settings:before{
+	content: '';
+}
+nav.bar.bar-tab{
+	background-color: rgb(239,121,111);
+}
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+	color: #0894ec;
+}
+.bar-tab .tab-item{
+	color: white;
+}
+.icon-refresh:before{
+	content: '';
+}
+.icon-refresh{
+	width: 1.2rem;
+	height: 100%;
+	background-image: url("../../assets/share.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+/*内容*/
+
+.content .info{
+	width: 70%;
+	height: auto;
+	margin:15% auto;
+	background-color: rgb(0,160,233);
+	border-radius: 3.5rem;
+	padding: 2.5rem 1.5rem; 
+	position: relative;
+	z-index: 0;
+	color: white;
+	font-size: 0.73rem;
+}
+.infologo-right,.infologo-left{
+	display: inline-block;
+	width:27%;
+}
+.white{
+	width: 100%;
+
+}
+.fl{
+	float: left;
+	
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	overflow: hidden;
+}
+.infologo-right{
+	position: absolute;
+	top:6%;
+	right: 12%;
+	z-index: 1;
+}
+.infologo-left{
+	position: absolute;
+	top: 1%;
+	left: 28%;
+	z-index: 1;
+}
+.methods{
+	background-image: url("../../assets/bg_paizi@2x.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: cover;
+	position: relative;
+}
+.steps{
+	width: 70%;
+	margin:1% 15%;
+	font-size: 0.7rem;
+}
+.bottem-logo{
+	width: 100%;
+	
+}
+.bottem-logo img{
+	display: inline-block;
+	width: 27%;
+	height: auto;
+	position: relative;
+	bottom:-12%;
+	right: 8%;
+} 
+.titlename{
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	/*background-color: white;*/
+	margin-top: 3.5%;
+}
+.titlename p{
+	width: 40%;
+	margin: 0 30%;
+	background-color: white;
+	border: 2px solid rgb(41,41,42);
+}
+
+
+/*popup*/
+div.popup{
+	background-image:url("../../assets/share-bg.png");
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+
+}
+.popup .share-btn{
+	
+	margin-top:85%;
+	color: white;
+}
+
+.popup .row .col-33{
+	width: 31%;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 2.3rem;
+}
+.popup .row .col-33 img{
+	width: 3.6rem;
+}
+.popup .share-btn .live{
+	position: relative;
+	top: -2.3rem;
+	/*z-index: 1;*/
+}
+.popup .cancle{
+	width: 100%;
+	text-align: center;
+	margin-top: 3rem;
+}
+.popup .cancle img{
+	width: 12%;
+}

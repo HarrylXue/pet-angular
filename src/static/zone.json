@@ -1,0 +1,31 @@
+{
+	"zoneList":[
+		{
+			"bg":"../../assets/dr.png",
+			"nickname":"COCO",
+			"lasttime":"10.01",
+			"status":"说真的,我要是有你这个睁着眼睡觉的本事,大概上课的时候回轻松很多吧...",
+			"imageList":[
+				"../../assets/whitedog.png",
+				"../../assets/whitedog.png",
+				"../../assets/whitedog.png"
+			],
+			"report":2,
+			"commit":14,
+			"thumbsup":22
+		},
+		{
+			"bg":"../../assets/user_second.png",
+			"nickname":"COCO",
+			"lasttime":"09.26",
+			"status":"关爱生命,远离马蜂窝,真的是,太惨了...",
+			"imageList":[
+				"../../assets/zone.png",
+				"../../assets/zone.png"
+			],
+			"report":3,
+			"commit":21,
+			"thumbsup":27
+		}
+	]
+}

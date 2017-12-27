@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header.bar{
+	background-color: rgb(239,121,111);
+}
+.bar-nav .title,.bar-nav .button-link{
+	color: white;
+}
+.bar .button-nav.pull-left{
+	margin-left: 0;
+}
+.bar .button-nav.pull-right{
+	margin-right: 0;
+}
+.bar-nav .title{
+	font-size: 0.9rem;
+}
+.post{
+	width: 96%;
+	margin:1% 2%;
+	border-bottom:1px solid rgb(169,169,169);
+}
+.post textarea{
+	resize: none;
+	width: 100%;
+	height: auto;
+	min-height: 6rem;
+	border: none;
+	
+}
+.add img{
+	width: 1rem;
+	margin-bottom: 0;
+}
+.add span{
+	font-size: 0.7rem;
+}
+/*.change{
+    opacity: 0;
+}*/
+.upload{
+	display: inline-block;
+	background-image: url("../../assets/btn_tianjia@2x.png");
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 100%;
+    /*padding: 4px 10px;*/
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    border:none;
+    text-decoration: none;
+    color: #666;
+    outline: 0;
+}
+.change{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.location{
+	width: 96%;
+	margin:1% 2%;
+}
+.location img{
+	width: 0.6rem;
+}
+.location span{
+	font-size: 0.7rem;
+}

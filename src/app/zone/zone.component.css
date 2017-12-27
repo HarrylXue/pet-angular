@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header.bar{
+	background-color: rgb(239,121,111);
+}
+.bar-nav .title,.bar-nav a{
+	color: white;
+}
+
+.bar-nav .title{
+	font-size: 0.9rem;
+}
+
+/*底部导航栏*/
+.icon-home{
+	width: 1.4rem;
+	background-image: url("../../assets/homepage.png");
+	background-repeat: no-repeat;
+	background-position: cover;
+}
+.icon-me{
+	width: 1.4rem;
+	background-image: url("../../assets/community.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+.icon-star{
+	
+	background-image: url("../../assets/camera.png");
+	background-repeat:no-repeat;
+	/*background-position: cover;*/
+}
+.icon-cart{
+	width: 1.4rem;
+	background-image: url("../../assets/match.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+.icon-settings{
+	width: 1.4rem;
+	background-image: url("../../assets/myinfo.png");
+	background-repeat:no-repeat;
+	background-position: cover;
+}
+.bar-tab .tab-item span.icon{
+	top: 0;
+}
+.bar-tab .tab-item div.icon{
+	top: -0.5rem;
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+}
+.bar-tab .tab-item .icon~.tab-label{
+	top:0.03rem;
+}
+.icon-home:before,.icon-me:before,.icon-star:before,.icon-cart:before,.icon-settings:before{
+	content: '';
+}
+nav.bar.bar-tab{
+	background-color: rgb(239,121,111);
+}
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+	color: #0894ec;
+}
+.bar-tab .tab-item{
+	color: white;
+}
+
+div.txt{
+	margin:4% 3%;
+}
+.row .col-33 {
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 32%;
+}
+.facebook-name b{
+	font-size: 1rem;
+	font-weight: normal;
+	color: rgb(239,121,111);
+}
+.facebook-date{
+	font-weight: normal;
+	font-size: 0.7rem;
+}
+.facebook-name,.facebook-date{
+	margin-left: 19%;
+}
+

@@ -1,0 +1,67 @@
+<div class="page-group">
+	
+
+	<div class="content">
+		<div class="content-block">
+			<div class="login">
+				<div class="row">
+					
+					<div class="col-100">
+						<div class="logo"></div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="page-login">
+				<div class="list-block inset">
+					<ul>
+						<!-- Text inputs -->
+						<li>
+							<div class="item-content">
+								<div class="item-media"><i class="icon icon-form-name"></i></div>
+								<div class="item-inner">
+									<div class="item-input">
+										<input type="text" placeholder="用户名/邮箱" [(ngModel)]="username">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-content">
+								<div class="item-media"><i class="icon icon-form-email"></i></div>
+								<div class="item-inner">
+									<div class="item-input">
+										<input type="password" placeholder="密码" [(ngModel)]="password">
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="shares">
+					<p class="login_btn"><a class="button button-big button-fill"  id="sign_up" (click)="check()">登录</a></p>
+					<p class='text-center signup'>
+						<a routerLink="/register">免费注册</a>
+						<a routerLink="/lostpwd">忘记密码？</a>
+					</p>
+					<div class="leader">第三方登录</div>
+					<div class="row others">
+
+						<a class="col-33" href="https://graph.qq.com/oauth/show?which=ConfirmPage&display=mobile&client_id=101294900&redirect_uri=http://sub.shanghaifirst.com.cn/login/QQLoginCallback&response_type=code&display=default%20&state=qq"> <img src="../../assets/qq.png" alt="" width='61'></a>
+						<a class="col-33" href="http://web.wechat.com/mobile"> <img src="../../assets/wechat.png" alt="" width='64'></a>
+						<a class="col-33" href="https://passport.weibo.cn/signin/login?entry=mweibo&r=http%3A%2F%2Fweibo.cn%2F&backTitle=%CE%A2%B2%A9&vt="> <img src="../../assets/weibo.png" alt="" width='60'></a>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+
+
+	</div>
+
+
+	
+	
+</div>

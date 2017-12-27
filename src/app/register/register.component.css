@@ -1,0 +1,102 @@
+div.content{
+	width: 100%;
+	height: auto;
+	background-image: url(../../assets/register_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.logo{
+	width: 3.8rem;
+	height: 3.8rem;
+	border-radius: 50%;
+	background-image: url(../../assets/logo@2x.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+}
+.login>.row .col-33{
+	height: 3.8rem;
+	width: 33.3%;
+    margin-left: 0;
+}
+.login .row{
+	margin-top: 5%;
+}
+div.list-block.inset{
+	margin-top: 10%;
+}
+
+.page-login .signup {
+  font-size: 0.7rem;
+  text-align: center;
+}
+.page-login .signup a{
+	color: white;
+}
+.page-login .leader {
+  margin: 3rem 0 1rem 0;
+  padding: 0.5rem 0;
+  font-size: 0.7rem;
+  border-top: 1px dashed #ccc;
+  
+}
+.page-login .leader{
+	text-align: center;
+}
+.page-login .leader:after {
+  left: auto;
+  right: 1rem;
+}
+
+.page-login i.icon-form-name {
+  background: url(http://gtms01.alicdn.com/tps/i1/TB1pN89IFXXXXaPXpXX8wnlGFXX-42-46.png) no-repeat;
+  background-size: 21px 23px;
+  background-position: 5px 7px;
+}
+.page-login i.icon-form-email {
+  background: url(http://gtms04.alicdn.com/tps/i4/TB1An8TIFXXXXapXVXXlg00GFXX-38-46.png) no-repeat;
+  background-size: 19px 23px;
+  background-position: 6px 1px;
+}
+
+
+.button.button-fill.button-big {
+	line-height: 2.0rem;
+	height: 2.0rem;
+	width: 70%;
+	border-radius: 2rem;
+	color:rgb(239,121,111);
+	background-color:white;
+	margin:0 auto;
+}
+.list-block {
+	margin: .75rem;
+}
+.content-block {
+	margin: .75rem 0;
+}
+.signup a {
+	color: #999;
+}
+p.login_btn{
+	margin-top: 20%;
+}
+.list-block ul{
+	background: none;
+}
+.item-input input{
+	border-bottom: 1px solid white;
+	color: white;
+}
+input::-webkit-input-placeholder{ /*WebKit browsers*/
+color: white;
+}
+input::-moz-input-placeholder{ /*Mozilla Firefox*/
+color: white;
+}
+input::-ms-input-placeholder{ /*Internet Explorer*/ 
+color: white;
+}
+li{
+	margin-top: 1.5rem;
+}

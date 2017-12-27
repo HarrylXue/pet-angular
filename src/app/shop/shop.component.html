@@ -1,0 +1,89 @@
+<div class="page-group">
+
+	<nav class="bar bar-tab">
+	<a class="tab-item external" routerLink="/homepage">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">首页</span>
+		</a>
+		<a class="tab-item external" routerLink="/community">
+			<span class="icon icon-me"></span>
+			<span class="tab-label">社区</span>
+
+		</a>
+		<a class="tab-item external open-popup open-about">
+			<div class="icon icon-star"></div>
+		</a>
+		<a class="tab-item external" routerLink="/match">
+			<span class="icon icon-cart"></span>
+			<span class="tab-label">配对</span>
+		</a>
+		<a class="tab-item external" routerLink="/
+		mypet">
+			<span class="icon icon-settings"></span>
+			<span class="tab-label">我的</span>
+		</a>
+	</nav>
+
+	<!-- 搜索栏 -->
+	<div class="bar bar-header-secondary">
+		<a class="icon icon-left pull-left" onclick="javascript:history.back(-1);"></a>
+		<div class="searchbar row">
+			
+			<div class="search-input col-80">
+				<label class="icon icon-search" for="search"></label>
+				<input type="search" id='search' placeholder="搜索">
+			</div>
+			<div class="col-20"><a href="/cart"></a></div>
+		</div>
+	</div>
+
+
+	<div class="content">
+		<div class="content-block">
+
+			<div class="swiper-container">
+				<div class="swiper-wrapper" routerLink="/shop">
+					<div class="swiper-slide">
+						<img src="../../assets/slider2.png" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="../../assets/slider.png" alt="">
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-50" *ngFor="let item of shopList">
+				<img src="{{item.bg}}" alt="" routerLink="/goods">
+			</div>
+		</div>
+	</div>
+
+	<!-- About Popup -->
+  <div class="popup popup-about">
+    <div class="content-block">
+      <div class="share-btn row">
+        <div class="col-33 close-popup" routerLink="/article">
+          <img src="../../assets/btn_tuwen@2x.png" alt="">
+          <p>图文</p>
+        </div>
+        <div class="col-33 close-popup live">
+          <a target="_blank" href="/camera"><img src="../../assets/btn_zhibo@2x.png" alt=""></a>
+          
+          <p>直播</p>
+        </div>
+        <div class="col-33 close-popup" routerLink="/baike">
+          <img  src="../../assets/btn_tiwen@2x.png" alt="">
+          <p>提问</p>
+        </div>
+      </div>
+      <div class="cancle close-popup">
+        <img class="close-popup" src="../../assets/btn_quxiao@2x.png" alt>
+      </div>
+    </div>
+  </div>
+</div>

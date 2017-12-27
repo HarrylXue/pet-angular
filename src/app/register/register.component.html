@@ -1,0 +1,70 @@
+<div class="page-group">
+	
+
+	<div class="content">
+		<div class="content-block">
+			<div class="login">
+				<div class="row">
+					
+					<div class="col-100">
+						<div class="logo"></div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="page-login">
+				<div class="list-block inset">
+					<ul>
+						<!-- Text inputs -->
+						<li>
+							<div class="item-content">
+								<div class="item-media"><i class="icon icon-form-name"></i></div>
+								<div class="item-inner">
+									<div class="item-input">
+										<input type="text" [(ngModel)]="username" placeholder="请设置用户名">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-content">
+								<div class="item-media"><i class="icon icon-form-phone"></i></div>
+								<div class="item-inner">
+									<div class="item-input">
+										<input type="number" [(ngModel)]="phone" placeholder="请输入手机号">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item-content">
+								<div class="item-media"><i class="icon icon-form-email"></i></div>
+								<div class="item-inner">
+									<div class="item-input">
+										<input type="password" [(ngModel)]="password" placeholder="请设置6到12位数密码">
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="shares">
+					<p class="login_btn"><a class="button button-big button-fill" href='home' data-transition='fade' (click)="register()">注册</a></p>
+					<p class='text-center signup'>
+						<a routerLink="/login">立即登录</a>
+						<a routerLink="/lostpwd">忘记密码？</a>
+					</p>
+				</div>
+
+			</div>
+			
+		</div>
+
+
+	</div>
+
+
+	
+	
+</div>

@@ -1,0 +1,73 @@
+<div class="page-group">
+	
+	<header class="bar bar-nav">
+		<h1 class="title">我的萌主</h1>
+	</header>
+
+	<nav class="bar bar-tab">
+	<a class="tab-item external" routerLink="/homepage">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">首页</span>
+		</a>
+		<a class="tab-item external" routerLink="/community">
+			<span class="icon icon-me"></span>
+			<span class="tab-label">社区</span>
+
+		</a>
+		<a class="tab-item external open-popup open-about">
+			<div class="icon icon-star"></div>
+		</a>
+		<a class="tab-item external" routerLink="/match">
+			<span class="icon icon-cart"></span>
+			<span class="tab-label">配对</span>
+		</a>
+		<a class="tab-item external active" href="javascript:void(0);">
+			<span class="icon icon-settings"></span>
+			<span class="tab-label">我的</span>
+		</a>
+	</nav>
+
+	<div class="content">
+		<div class="box">
+			<div class="row left">
+				<div class="point" routerLink="/pet-info" style="background-color: rgb(252,176,63);">我的资料</div>
+				<div class="point" routerLink="/localshop" style="background-color: rgb(239,121,111);">我的寄养</div>
+			</div>	
+			<div class="row middle">
+				<div class="point" style="background-color: rgb(143,130,188);" routerLink="/zone">我的动态</div>
+				<div class="point mid" routerLink="/management"><p>COCO</p></div>
+				
+				<div class="point" routerLink="/baikedetail" style="background-color: rgb(143,211,206);">我的收藏</div>
+			</div>	
+			<div class="row right">
+				<div class="point" routerLink="/orders" style="background-color: rgb(239,121,111);">我的订单</div>
+				<div class="point" routerLink="/baike" style="background-color: rgb(129,194,105);">我的问答</div>
+			</div>	
+		</div>
+	</div>
+
+	<!-- About Popup -->
+  <div class="popup popup-about">
+    <div class="content-block">
+      <div class="share-btn row">
+        <div class="col-33 close-popup" routerLink="/article">
+          <img src="../../assets/btn_tuwen@2x.png" alt="">
+          <p>图文</p>
+        </div>
+        <div class="col-33 close-popup live">
+          <a target="_blank" href="/camera"><img src="../../assets/btn_zhibo@2x.png" alt=""></a>
+          
+          <p>直播</p>
+        </div>
+        <div class="col-33 close-popup" routerLink="/baike">
+          <img  src="../../assets/btn_tiwen@2x.png" alt="">
+          <p>提问</p>
+        </div>
+      </div>
+      <div class="cancle close-popup">
+        <img class="close-popup" src="../../assets/btn_quxiao@2x.png" alt>
+      </div>
+    </div>
+  </div>
+
+</div>

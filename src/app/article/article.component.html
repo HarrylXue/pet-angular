@@ -1,0 +1,27 @@
+<div class="page-group">
+	
+	<header class="bar bar-nav">
+		<button class="button button-link button-nav pull-left" onclick="javascript:history.back(-1);">取消</button>
+		<button class="button button-link button-nav pull-right" (click)="report()">发送</button>
+		<h1 class="title">发图文</h1>
+	</header>
+	
+	<div class="content">
+		<div class="post">
+			<textarea placeholder="分享萌主新鲜事..."></textarea>
+			<div class="add">
+				<!-- <img src="../../assets/btn_tianjia@2x.png" alt=""> -->
+				<a href="javascript:;" class="upload">
+					<input class="change" type="file" multiple="multiple" accept="image/*"/>
+				</a>
+				<span>添加图片</span>
+			</div>
+		</div>
+
+		<div class="location">
+			<img src="../../assets/btn_dingwei@2x.png" alt="">
+			<span routerLink="/mylocal">定位</span>
+		</div>
+	</div>
+	
+</div>
